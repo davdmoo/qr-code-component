@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Outfit';
-  background-color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
   margin: 0px;
 }
 
@@ -22,9 +22,17 @@ p {
   color: hsl(220, 15%, 55%);
 }
 
+.attribution {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 16px;
+}
+
 .container {
   display: flex;
-  height: 100vh;
+  position: relative;
+  flex-direction: column;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   padding-left: 32px;
@@ -39,7 +47,7 @@ p {
   background-color: hsl(0, 0%, 100%);
   border-radius: 16px;
   padding: 16px;
-  box-shadow: 0 4px 8px 0 hsl(220, 15%, 55%), 0 6px 20px 0 hsl(220, 15%, 55%);
+  box-shadow: 0 4px 8px 0 hsl(212, 45%, 89%), 0 6px 20px 0 hsl(212, 45%, 89%);
 }
 
 .qr {
@@ -57,7 +65,5 @@ p {
 
 .content {
   text-align: center;
-  margin-left: 8px;
-  margin-right: 8px;
   margin-top: 4px;
 }
