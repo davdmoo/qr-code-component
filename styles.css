@@ -8,6 +8,14 @@ body {
   font-family: 'Outfit';
   background-color: hsl(212, 45%, 89%);
   margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 h1 {
@@ -28,42 +36,26 @@ p {
   padding-bottom: 16px;
 }
 
-.container {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
 .card {
-  display: flex;
-  flex-direction: column;
   max-width: 300px;
-  align-items: center;
   background-color: hsl(0, 0%, 100%);
   border-radius: 16px;
   padding: 16px;
   box-shadow: 0 4px 8px 0 hsl(212, 45%, 89%), 0 6px 20px 0 hsl(212, 45%, 89%);
+  text-align: center;
 }
 
 .qr {
   border-radius: 8px;
-  height: 300px;
-  width: 300px;
+  width: 100%;
 }
 
 .title {
   margin-top: 24px;
   margin-left: 8px;
   margin-right: 8px;
-  text-align: center;
 }
 
 .content {
-  text-align: center;
   margin-top: 4px;
 }
