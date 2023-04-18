@@ -32,8 +32,8 @@ p {
 
 .attribution {
   position: absolute;
-  bottom: 0;
-  padding-bottom: 16px;
+  bottom: 16px;
+  font-size: 11px;
 }
 
 .card {
